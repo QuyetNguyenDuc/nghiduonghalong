@@ -285,6 +285,7 @@
 .callbacks_container {
   position: relative;
   width: 100%;
+  margin-top: 78px;
   }
 
 .callbacks {
@@ -724,13 +725,16 @@ img:hover{
 .clear{clear:both}
 
 /**********************************************/
-#msvietnam-copyright a{color:#333; text-decoration:none}.ms-image-area{
+#msvietnam-copyright a{color:#333; text-decoration:none}
+.ms-image-area{
     display:initial;
-}.ms-image-area:hover{
+}
+.ms-image-area:hover{
     fill: #ffb400;
     opacity: 0.5;
 }
-.ms-form-body, .ms-form-name a,.ms-form-email a,.ms-form-phone a{display:none}
+.ms-form-body, .ms-form-name a,.ms-form-email a,.ms-form-phone a{display:none}
+
 .ms-form-text {
     width:96%;
     line-height: 34px;
